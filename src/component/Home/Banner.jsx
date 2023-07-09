@@ -17,7 +17,7 @@ const Banner = () => {
                 <span style={{'--i': 22}} ></span>
                 <span style={{'--i': 26}} ></span>    
         </div>    
-            <div className="flex  pt-16 pb-16 w-5/6 m-auto">
+            <div className="flex  pt-16  w-5/6 m-auto">
                 <div className="w-600 shrink w-600 ">
                     <h2 className="text-white text-4xl font-bold font-sans">Hi, I am Ratri Khanom</h2>
 <motion.div className='mb-6 text-[30px] lg:text-[45px] font-secondary font-bold uppercase leading-[1]mx-auto lg:mx-0' variants={fadeIn('up',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
@@ -35,7 +35,7 @@ const Banner = () => {
                  </div>
                  <div className="shrink w-900 ">
                     <img src={img} alt="" />
-              </div>
+                 </div>
                 
                 
             </div></div>

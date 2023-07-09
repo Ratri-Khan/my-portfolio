@@ -1,15 +1,22 @@
 // import React from 'react';
 
+import Services from "./AboutMe";
 import Banner from "./Banner";
-import Navbar from "./Navbar";
+import Contact from "./Contact";
+// import Navbar from "./Navbar";
 import Skills from "./Skills";
+// import Footer from "../shared/Footer"
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
+           
             <Banner></Banner>
             <Skills></Skills>
+            <Services></Services>
+            <Contact></Contact>
+            
+            
         </div>
     );
 };

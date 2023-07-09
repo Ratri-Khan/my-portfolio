@@ -1,6 +1,6 @@
 // import React from "react";
 import '../../App.css'
-import { FaReact } from "react-icons/fa";
+// import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
   SiReact,
@@ -39,10 +39,10 @@ const skills = [
 
 const Skills = () => {
   return (
-    <>
-      <section id="skills" className="py-12 bg-black w-5/6 m-auto">
+    <div className='skill'>
+      <section id="skills" className="  w-5/6 m-auto">
         <div className="container">
-          <h2 className="text-4xl text-end font-preahvihear mb-8">
+          <h2 className="text-4xl text-center text-white font-preahvihear mb-8">
             Technologies and Frameworks
           </h2>
 
@@ -50,7 +50,9 @@ const Skills = () => {
             {skills.map((skill, index) => (
               <div
                 key={index}
-                className="bgCustomGradient customShadow rounded-xl flex flex-col justify-center items-center px-4 py-6 border-t border-primaryLight2"
+                className="bgCustomGradient customShadow rounded-xl flex flex-col justify-center items-center px-4 py-6 border-t border-primaryLight2
+                bg-gradient-to-r from-purple-500 to-black
+                "
               >
                 <div style={{ color: skill?.brandColor || "#fff" }} className="text-5xl mb-4">
                   {skill?.icon}
@@ -61,7 +63,7 @@ const Skills = () => {
           </div>
         </div>
       </section>
-    </>
+      </div>
   );
 };
 
