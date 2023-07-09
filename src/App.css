@@ -1,0 +1,39 @@
+.ratri{
+    background-color: rgb(255, 0, 191);
+}
+.point{
+    display: flex;
+    position: relative;
+}
+.point span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50px;
+    box-shadow: 0 0 0 10px #4fc3dc44 ;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(110s / var(--i)) ;
+}
+.point span:nth-child(even)
+{
+    background-color: #5c043d;
+    box-shadow: 0 0 0 10px #ff2d7544;
+}
+@keyframes animate{
+    0%{
+        transform: translate(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+.banner{
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:1300px;
+    height: 800px;
+}
