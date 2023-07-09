@@ -10,7 +10,7 @@ const Navbar = () => {
       </div>
       <div>
         <ul className="menu menu-horizontal px-1">
-        <li><a> <Link to="/home">Home</Link></a></li>
+        <li><a> <Link to="/">Home</Link></a></li>
         <li><a><Link to="/project">Project</Link></a></li>
         <li><a> <Link to="/aboutMe">About Me</Link> </a></li>
         <li><a><Link to="/contact">Contact</Link></a></li>
