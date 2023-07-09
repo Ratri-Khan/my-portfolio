@@ -29,11 +29,11 @@ const Services = () => {
           <motion.div className='lg:bg-services bg-no-repeat  bg-contain lg:bg-bottom   mix-blend-lighten   mt-6 lg:mb-0 flex-1 ' variants={fadeIn('right',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.5}}>
 
           <h3 className=" text-4xl text-white ">About Me</h3>
-          <h2 className='h2 text-3xl'>What I do</h2>
+          <h2 className='h2 text-3xl mt-5'>What I do</h2>
           <h3 className='max-w-[455px] h3 '>I just learned Web Designing and Development in last 6 months. I just staring my skill development</h3>
           <img src={img} alt="" className="max-w-[315px] max-h-[315px]" />
           </motion.div>
-          <motion.div className='max-w-[470px]  'variants={fadeIn('left',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.5}}>
+          <motion.div className='max-w-[470px] mt-20 'variants={fadeIn('left',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.5}}>
           {
             data.map(index=><div key={index.name} className='border-b border-white/20 py-4 flex justify-between gap-x-10 mt-15'>
                  <div>

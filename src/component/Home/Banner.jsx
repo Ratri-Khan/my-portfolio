@@ -16,22 +16,27 @@ const Banner = () => {
                 <span style={{'--i': 20}} ></span>
                 <span style={{'--i': 22}} ></span>
                 <span style={{'--i': 26}} ></span>    
+                <span style={{'--i': 28}} ></span>    
+                <span style={{'--i': 13}} ></span>    
+                <span style={{'--i': 23}} ></span>    
+                <span style={{'--i': 11}} ></span>    
+                <span style={{'--i': 15}} ></span>    
+                <span style={{'--i': 27}} ></span>    
+                <span style={{'--i': 28}} ></span>    
         </div>    
             <div className="flex  pt-16  w-5/6 m-auto">
                 <div className="w-600 shrink w-600 ">
                     <h2 className="text-white text-4xl font-bold font-sans">Hi, I am Ratri Khanom</h2>
 <motion.div className='mb-6 text-[30px] lg:text-[45px] font-secondary font-bold uppercase leading-[1]mx-auto lg:mx-0' variants={fadeIn('up',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
 <span className='me-3 text-white'>I am a</span>
-<TypeAnimation sequence={[" MERN STACK DEVELOPER",2000,"FRONT-END-DEVELOPER",2000]} speed={50} className='text-accent'wrapper='span'repeat={Infinity}/>
+<TypeAnimation sequence={[" MERN STACK DEVELOPER",2000,"FRONT-END-DEVELOPER",2000]} speed={50} className=' text-pink-600' wrapper='span'repeat={Infinity}/>
 </motion.div>                     <p className="text-white text text-lg">
-                    I am a self-curious Web Developer as my educational background is not related programming, I am student of mathematics but enjoy Web Development so much, try to develop the front end of a web application using React.js and the back-end using Node.js(express) with comfortable. Besides always ready to learn any new technology.
+                    I am a self-curious Web Developer as my educational background is not related programming but enjoy Web Development so much, try to develop the front end of a web application using React.js and the back-end using Node.js(express) with comfortable. Besides always ready to learn any new technology.
 
                     Honestly, I am excited to start my career as a web developer as well as to enhance my workplace and reputation day by day.
                      </p>
-                     {/* <button className="btn btn-active btn-neutral">
-                         Download Resume
-                     </button> */}
-                      <button className='btn btn-lg me-4'><a href="Ratri khan2.pdf" download="myfile.pdf"  >Download Resume</a></button> 
+                     
+                      <button className='btn bg-gradient-to-r from-purple-500 to-pink-500 text-white'><a href="Ratri khan2.pdf" download="myfile.pdf"  >Download Resume</a></button> 
                  </div>
                  <div className="shrink w-900 ">
                     <img src={img} alt="" />

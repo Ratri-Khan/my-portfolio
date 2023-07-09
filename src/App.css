@@ -18,7 +18,7 @@
 }
 .point span:nth-child(even)
 {
-    background-color: #5c043d;
+    background-color: #b50477;
     box-shadow: 0 0 0 10px #ff2d7544;
 }
 @keyframes animate{
