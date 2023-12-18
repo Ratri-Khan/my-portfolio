@@ -1,16 +1,16 @@
 // import React from 'react';
 
 import { Outlet } from "react-router-dom";
-import Footer from "../component/shared/Footer";
+// import Footer from "../component/shared/Footer";
 import Navbar from "../component/Home/Navbar";
 
 
 const Main = () => {
     return (
-        <div>
+        <div className="bg-black">
            <Navbar></Navbar>
            <Outlet></Outlet>
-           <Footer></Footer>
+           {/* <Footer></Footer> */}
            
         </div>
     );

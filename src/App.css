@@ -1,47 +1,28 @@
-.ratri{
-    background-color: rgb(255, 0, 191);
-}
-.point{
+.bubbles{
     display: flex;
     position: relative;
 }
-.point span{
+.bubbles span{
     position: relative;
     width: 30px;
     height: 30px;
     background-color: #4fc3dc;
     margin: 0 4px;
     border-radius: 50px;
-    box-shadow: 0 0 0 10px #4fc3dc44 ;
+    box-shadow: 0 0 0 5px #4fc3dc44 ;
     animation: animate 15s linear infinite;
     animation-duration: calc(110s / var(--i)) ;
 }
-.point span:nth-child(even)
+.bubbles span:nth-child(even)
 {
     background-color: #b50477;
     box-shadow: 0 0 0 10px #ff2d7544;
 }
 @keyframes animate{
     0%{
-        transform: translate(100vh) scale(0);
+        transform: translateY(80vh) scale(0);
     }
     100%{
         transform: translateY(-10vh) scale(1);
     }
-}
-
-.banner{
-    background-image: url('./assets/background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:1350px;
-    height: 600px;
-}
-.skill{
-    background-image: url('./assets/skill.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:1350px;
-    padding: 10px 0px 60px 0px;
-    border:4px solid #b50477;
 }

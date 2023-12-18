@@ -1,4 +1,4 @@
-import img from "../../assets/ratri.png";
+import img from "../../assets/ratri.jpg";
 import {BsArrowUpRight} from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';

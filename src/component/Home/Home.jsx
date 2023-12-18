@@ -1,22 +1,15 @@
-// import React from 'react';
-
-import Services from "./AboutMe";
+// import Services from "./AboutMe";
 import Banner from "./Banner";
-import Contact from "./Contact";
-// import Navbar from "./Navbar";
-import Skills from "./Skills";
-// import Footer from "../shared/Footer"
+// import Contact from "./Contact";
+// import Skills from "./Skills";
 
 const Home = () => {
     return (
-        <div>
-           
+        <div className="bg-black">          
             <Banner></Banner>
-            <Skills></Skills>
-            <Services></Services>
-            <Contact></Contact>
-            
-            
+            {/* <Skills></Skills> */}
+            {/* <Services></Services> */}
+            {/* <Contact></Contact>*/}
         </div>
     );
 };
