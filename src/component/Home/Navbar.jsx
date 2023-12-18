@@ -1,10 +1,8 @@
-// import { Link } from "react-router-dom";
-
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#5F0F40] z-10 bg-opacity-80 text-white">
+    <div className="fixed navbar bg-[#5F0F40] z-10 bg-opacity-80 text-white">
       <a className="btn btn-ghost text-xl">Ratri</a>
       <div className="navbar-start">
         <div className="dropdown">
