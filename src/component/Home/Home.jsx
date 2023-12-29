@@ -1,14 +1,16 @@
 import AboutMe from "./AboutMe";
 import Banner from "./Banner";
 import Contact from "./Contact";
+import Project from "./Project";
 import Skills from "./Skills";
 
 const Home = () => {
     return (
         <div className="bg-black">          
             <Banner></Banner>
-            <Skills></Skills>
             <AboutMe></AboutMe>
+            <Skills></Skills>
+            <Project></Project>
             <Contact></Contact>
         </div>
     );
