@@ -1,17 +1,14 @@
-// import React from 'react';
-
-import { Outlet } from "react-router-dom";
-import Footer from "../component/shared/Footer";
-import Navbar from "../component/Home/Navbar";
-
+import React from 'react';
+import Navbar from '../component/Home/Navbar';
+import { Outlet } from 'react-router-dom';
+import Footer from '../component/shared/Footer';
 
 const Main = () => {
     return (
-        <div className="bg-black">
-           <Navbar></Navbar>
-           <Outlet></Outlet>
-           <Footer></Footer>
-           
+        <div>
+            <Navbar></Navbar>
+            <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };

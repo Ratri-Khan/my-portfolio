@@ -2,8 +2,8 @@
 
 const Footer = () => {
     return (
-        <div className='bg-[#5F0F40] text-white text-center '>
-            <p className='py-5'>Copywrite © 2023 , Ratri Khan - All Rights Reserved</p>
+        <div className='text-white text-center bg-slate-950'>
+            <p className='py-5'>Copyright © 2024 - All right reserved by Ratri Khan</p>
         </div>
     );
 };

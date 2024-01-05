@@ -18,8 +18,8 @@ const Project = () => {
           whileInView={"show"}
           viewport={{ once: "false", amount: 0.5 }}
         >
-          <div className="flex flex-col lg:flex-row gap-x-10 justify-center mb-12">
-            <div className="group relative  overflow-hidden w-6/12">
+          <div className="flex flex-col lg:flex-row gap-x-10 justify-center mb-6">
+            <div className="group relative  overflow-hidden md:w-6/12 mb-6 lg:mb-0">
               <div className="group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-50"></div>
               <img
                 src={img1}
@@ -49,7 +49,7 @@ const Project = () => {
                 </span>
               </p>
             </div>
-            <div className="group relative  overflow-hidden w-6/12">
+            <div className="group relative  overflow-hidden md:w-6/12">
               <div className="group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-50"></div>
               <img
                 src={img1}
@@ -82,7 +82,7 @@ const Project = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row gap-x-10 justify-center">
-            <div className="group relative  overflow-hidden mb-6 lg:mb-0 w-6/12">
+            <div className="group relative  overflow-hidden mb-6 lg:mb-0 md:w-6/12">
               <div className="group-hover:bg-black/80 h-full  absolute transition-full duration-300 z-50 "></div>
               <img
                 src={img2}
@@ -115,7 +115,7 @@ const Project = () => {
                 </span>{" "}
               </p>
             </div>
-            <div className="group relative  overflow-hidden w-6/12">
+            <div className="group relative  overflow-hidden md:w-6/12">
               <div className="group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-50"></div>
               <img
                 src={img3}

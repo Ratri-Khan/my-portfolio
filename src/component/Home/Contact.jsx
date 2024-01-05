@@ -38,15 +38,14 @@ const Contact = () => {
   }, []);
   return (
     <div
-      className="container w-10/12 mx-auto my-7 bg-black"
-      style={{ height: "100vh" }}
+      className="container w-10/12 mx-auto py-8"
     >
       <h2 className="text-white  text-center text-4xl font-bold font-sans  my-8">
         Contact with Me
       </h2>
-      <div className="flex justify-between">
+      <div className="md:flex lg:flex justify-between">
         <div
-          className="w-6/12"
+          className="md:w-6/12 lg:w-6/12 m-1"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="200"
@@ -86,13 +85,13 @@ const Contact = () => {
             ></textarea>
             <button
               className="rounded bold py-3 px-7 border-t border-primaryLight2
-                bg-gradient-to-r from-[#5F0F40] to-black font-bold text-white"
+                bg-gradient-to-r from-slate-950 to-black font-bold text-white"
             >
               send message
             </button>
           </form>
         </div>
-        <div className="contact w-6/12 rounded-xl text-white grid
+        <div className="contact md:w-6/12 lg:w-6/12 rounded-xl m-1 text-white grid
         place-items-center"
         data-aos="zoom-in"
         data-aos-duration="1000"
